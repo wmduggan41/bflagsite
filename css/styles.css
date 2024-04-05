@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  font-family: system-ui, sans-serif;
+  
+  /* this breaks position sticky in Firefox */
+  /* overflow-x: hidden; */
+}
+
+header {
+  grid-column: 1 / 3;
+  background: hsl(144, 97%, 15%);
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
+
+main {
+  padding-bottom: 40rem;
+}
+
+section {
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+footer {
+  grid-column: 1 / 3;
+  background: hsl(144, 97%, 15%);
+  color: white;
+  padding: 5rem 1rem;
+  text-align: center;
+}

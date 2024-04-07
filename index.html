@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
-    <title>Backward Flag LLC | Harry Mangamuri | Morristown, NJ 07960</title>
+    <title>Backwards Flag LLC | Harry Mangamuri | Morristown, NJ 07960</title>
     <meta name="description" content="Call Harry"/>
 
     <!-- Google Fonts -->
@@ -18,84 +18,101 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
     <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
 
+        <div class="container-fluid">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Backwards Flag</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="">Backwards Flag</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#landscape">Landscape</a>
+                            <a class="dropdown-item" href="#stump">Stump Grinding</a>
+                            <a class="dropdown-item" href="#holiday">Holiday Lighting</a>
+                            <a class="dropdown-item" href="#plantings">Plantings</a>
+                            <a class="dropdown-item" href="#drainage">Drainage</a>
+                            <!-- <div class="dropdown-divider"></div> -->
+                            </div>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Services
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Service 1</a>
-                        <a class="dropdown-item" href="#">Service 2</a>
-                        <!-- <div class="dropdown-divider"></div> -->
-                        <a class="dropdown-item" href="#">Service 3</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+        </div>
 
-            </div>
-        </nav>
     </header>
 
     <!-- Main Content -->
     <main>
 
-        <!-- Section 1 content can be added here -->
-        <section id="home-1">
-
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h1>Backward Flag LLC</h1>
-                        <p>Harry Mangamuri</p>
-                        <p>Morristown, NJ 07960</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="images/flag.jpg" alt="Backward Flag" class="img-fluid">
-                    </div>
-                </div>
+        <!-- About content added here -->
+        <section id="about" class="container-fluid">
+            <div class="text-center">
+                <h1>Backwards Flag LLC</h1>
+                <p>Enhance your Morris County, NJ, home's outdoor space with our comprehensive landscaping services. We're dedicated to transforming your yard, boosting both its aesthetics and value. Our team offers a wide range of services, accommodating your schedule with flexibility and a commitment to satisfaction. No project is too large or small for our skilled professionals. Trust us to treat your property with the utmost respect, ensuring you're delighted with the outcome. Contact us to schedule your appointment and experience exceptional service tailored to your needs.</p> 
             </div>
         </section>
-        <!-- Section 2 content can be added here -->
-        <section id="home-2">
 
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h1>Backward Flag LLC</h1>
-                        <p>Harry Mangamuri</p>
-                        <p>Morristown, NJ 07960</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="images/flag.jpg" alt="Backward Flag" class="img-fluid">
-                    </div>
-                </div>
+        <!-- landscape content added here -->
+        <section id="landscape" class="container-fluid">
+            <div class="text-center">
+                <h2>Landscape Services</h2>
+                <p>Description for landscape services...</p>
             </div>
         </section>
-        <!-- Section 3 content can be added here -->
+
+        <!-- stump content added here -->
+        <section id="stump" class="container-fluid">
+            <div class="text-center">
+                <h2>Stump Grinding Services</h2>
+                <p>Description for stump grinding services...</p>
+            </div>
+        </section>
+
+        <!-- holiday content added here -->
+        <section id="holiday" class="container-fluid">
+            <div class="text-center">
+                <h2>Holiday Lighting Services</h2>
+                <p>Description for holiday lighting services...</p>
+            </div>
+        </section>
+
+        <!-- plantings content added here -->
+        <section id="plantings" class="container-fluid">
+            <div class="text-center">
+                <h2>Plantings Services</h2>
+                <p>Description for plantings services...</p>
+            </div>
+        </section>
+
+        <!-- drainage content added here -->
+        <section id="drainage" class="container-fluid">
+            <div class="text-center">
+                <h2>Drainage Services</h2>
+                <p>Description for drainage services...</p>
+            </div>
+        </section>
 
     </main>
 

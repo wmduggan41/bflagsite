@@ -35,20 +35,25 @@ footer {
   text-align: center;
 }
 
-.img-comparison-container {
-  position: relative;
-  overflow: hidden;
+.media-slider__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.img-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  overflow: hidden;
+.media-slider__left {
+    position: absolute;
+    left: 0;
+    width: 50%; /* Initial overlay width */
+    height: 100%;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
 }
 
-.img-overlay img {
-  display: block;
-  max-width: none;
-  position: relative;
+.media-slider__container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
+

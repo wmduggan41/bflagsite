@@ -68,15 +68,13 @@
     <main>
 
 <!-- Hero Image -->
-        <div class="img-comparison-container">
-        <img src="path/to/before.jpg" class="img-fluid" alt="Before">
-        <div class="img-overlay">
-            <img src="path/to/after.jpg" class="img-fluid" alt="After">
-        </div>
-        <input type="range" min="0" max="100" value="50" class="img-comparison-slider" id="slider-range">
-        </div>
-
-
+        <div class="media-slider__container">
+            <img src="img/after/a1.jpeg" class="media-slider__right-media" alt="After"></img>
+            <div class="media-slider__left" style="width: 50%;">
+                <img src="img/before/b1.jpeg" class="media-slider__left-media" alt="Before"></img>
+            </div>
+            <input id="slider-range" class="media-slider__range" type="range" min="0" max="100" value="50">
+        </div>  
 
 <!-- About content added here -->
         <section id="about" class="container-fluid">

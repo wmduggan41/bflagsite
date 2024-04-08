@@ -68,13 +68,15 @@
     <main>
 
 <!-- Hero Image -->
-        <div class="media-slider__container">
-            <img src="img/after/a1.jpeg" class="media-slider__right-media" alt="After"></img>
-            <div class="media-slider__left" style="width: 50%;">
-                <img src="img/before/b1.jpeg" class="media-slider__left-media" alt="Before"></img>
+        <section id="hero" class="container-fluid">
+            <div class="media-slider__container">
+                <img src="img/before/b1.jpeg" class="media-slider__right-media" alt="Before">
+                <div class="media-slider__left">
+                    <img src="img/after/a1.jpeg" class="media-slider__left-media" alt="After">
+                </div>
+                <input type="range" min="0" max="100" value="50" class="media-slider__range" id="slider-range">
             </div>
-            <input id="slider-range" class="media-slider__range" type="range" min="0" max="100" value="50">
-        </div>  
+        </section>
 
 <!-- About content added here -->
         <section id="about" class="container-fluid">

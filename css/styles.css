@@ -29,24 +29,41 @@ section {
 
 .media-slider__container {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 600px; /* Adjust based on desired size */
+    margin: auto; /* Centers the slider */
+    overflow: hidden;
+}
+
+.media-slider__right-media, .media-slider__left-media {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; /* Cover the area without losing aspect ration */
 }
 
 .media-slider__left {
     position: absolute;
+    top: 0;
     left: 0;
-    width: 50%; /* Initial overlay width */
+    width: 50%; /* Initial position of the slider */
     height: 100%;
     overflow: hidden;
-    transition: width 0.5s ease-in-out;
 }
 
-.media-slider__container img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+/*.media-slider__splitter {
+    position: absolute;
+    top: 0;
+    color: rgb(190, 162, 94);
+    height: 100%;
+    width: 5px;
+    cursor: col-resize;
+}*/
+
+.media-slider__range {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
 }
 
 footer {

@@ -35,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="about">About <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -70,16 +70,16 @@
 <!-- Hero Image -->
         <section id="hero" class="container-fluid">
             <div class="media-slider__container">
-                <img src="img/before/b1.jpeg" class="media-slider__right-media" alt="Before">
+                <img src="img/misc/m1.jpeg" class="media-slider__right-media" alt="Before">
                 <div class="media-slider__left">
-                    <img src="img/after/a1.jpeg" class="media-slider__left-media" alt="After">
+                    <img src="img/misc/m4.jpeg" class="media-slider__left-media" alt="After">
                 </div>
                 <input type="range" min="0" max="100" value="50" class="media-slider__range" id="slider-range">
             </div>
         </section>
 
 <!-- About content added here -->
-        <section id="about" class="container-fluid">
+        <section id="about" class="container-fluid bg-gray">
             <div class="text-center">
                 <h1>Backwards Flag LLC</h1>
                 <p>Enhance your Morris County, NJ, home's outdoor space with our comprehensive landscaping services. We're dedicated to transforming your yard, boosting both its aesthetics and value. Our team offers a wide range of services, accommodating your schedule with flexibility and a commitment to satisfaction. No project is too large or small for our skilled professionals. Trust us to treat your property with the utmost respect, ensuring you're delighted with the outcome. Contact us to schedule your appointment and experience exceptional service tailored to your needs.</p> 
@@ -93,24 +93,40 @@
                 <p>Transform your outdoor living space with our personalized landscape services. Whether it's a serene garden retreat or a stylish entertainment area, our team works with you to bring your vision to life, enhancing the beauty and value of your property.</p>
             </div>
 <!-- Landscape Carousel -->
-            <div id="landscapeCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="landscapeCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#landscapeCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#landscapeCarousel" data-slide-to="1"></li>
+                <li data-target="#landscapeCarousel" data-slide-to="2"></li>
+                <li data-target="#landscapeCarousel" data-slide-to="3"></li>
+            </ul>
+
+            <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="path/to/image1.jpg" class="d-block w-100" alt="First slide">
+                <img src="img/landscape/l2.jpeg" alt="Land 2">
                 </div>
                 <div class="carousel-item">
-                <img src="path/to/image2.jpg" class="d-block w-100" alt="Second slide">
+                <img src="img/landscape/l3.jpeg" alt="Land 3">
                 </div>
-<!-- Additional Landscape carousel items -->
+                <div class="carousel-item">
+                <img src="img/landscape/l4.jpeg" alt="Land 4">
+                </div>
+                <div class="carousel-item">
+                <img src="img/landscape/l6.jpeg" alt="Land 6">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#landscapeCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#landscapeCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#landscapeCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#landscapeCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
             </div>
         </section>
 
@@ -121,24 +137,48 @@
                 <p>Eliminate unsightly stumps from your yard with our efficient stump grinding service. We offer solutions tailored to your landscape's specific needs, ensuring a smooth, hazard-free outdoor area.</p>
             </div>
 <!-- Stump Carousel -->
-            <div id="stumpCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="stumpCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#stumpCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#stumpCarousel" data-slide-to="1"></li>
+                <li data-target="#stumpCarousel" data-slide-to="2"></li>
+                <li data-target="#stumpCarousel" data-slide-to="3"></li>
+                <li data-target="#stumpCarousel" data-slide-to="4"></li>
+                <li data-target="#stumpCarousel" data-slide-to="5"></li>
+            </ul>
+
+            <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="path/to/image1.jpg" class="d-block w-100" alt="First slide">
+                <img src="img/stump/s9.jpeg" alt="Stump 9">
                 </div>
                 <div class="carousel-item">
-                <img src="path/to/image2.jpg" class="d-block w-100" alt="Second slide">
+                <img src="img/stump/s7.jpeg" alt="Stump 7">
                 </div>
-<!-- Additional Stump carousel items -->
+                <div class="carousel-item">
+                <img src="img/stump/s2.jpeg" alt="Stump 2">
+                </div>
+                <div class="carousel-item">
+                <img src="img/stump/s3.jpeg" alt="Stump 3">
+                </div>
+                <div class="carousel-item">
+                <img src="img/stump/s4.jpeg" alt="Stump 4">
+                </div>
+                <div class="carousel-item">
+                <img src="img/stump/s5.jpeg" alt="Stump 5">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#stumpCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#stumpCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#stumpCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#stumpCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
             </div>
         </section>
 
@@ -149,24 +189,48 @@
                 <p>Brighten up your holiday season with our custom lighting services. From design to installation and removal, we provide a hassle-free experience, creating a festive atmosphere that reflects your unique style.</p>
             </div>
 <!-- Holiday Carousel -->
-            <div id="holidayCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="holidayCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#holidayCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#holidayCarousel" data-slide-to="1"></li>
+                <li data-target="#holidayCarousel" data-slide-to="2"></li>
+                <li data-target="#holidayCarousel" data-slide-to="3"></li>
+                <li data-target="#holidayCarousel" data-slide-to="4"></li>
+                <li data-target="#holidayCarousel" data-slide-to="5"></li>
+            </ul>
+
+            <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="path/to/image1.jpg" class="d-block w-100" alt="First slide">
+                <img src="img/holiday/h1.jpeg" alt="Holiday 1">
                 </div>
                 <div class="carousel-item">
-                <img src="path/to/image2.jpg" class="d-block w-100" alt="Second slide">
+                <img src="img/holiday/h2.jpeg" alt="Holiday 2">
                 </div>
-<!-- Additional Holiday carousel items -->
+                <div class="carousel-item">
+                <img src="img/holiday/h3.jpeg" alt="Holiday 3">
+                </div>
+                <div class="carousel-item">
+                <img src="img/holiday/h4.jpeg" alt="Holiday 4">
+                </div>
+                <div class="carousel-item">
+                <img src="img/holiday/h5.jpeg" alt="Holiday 5">
+                </div>
+                <div class="carousel-item">
+                <img src="img/holiday/h10.jpeg" alt="Holiday 10">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#holidayCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#holidayCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#holidayCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#holidayCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
             </div>
         </section>
 
@@ -177,24 +241,48 @@
                 <p>Enhance your outdoor space with our planting services. Whether you're looking for vibrant flower beds, lush greenery, or a vegetable garden, we customize our services to fit your preferences and the local climate, ensuring thriving plant life.</p>
             </div>
 <!-- Plantings Carousel -->
-            <div id="plantingsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="plantingCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#plantingCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#plantingCarousel" data-slide-to="1"></li>
+                <li data-target="#plantingCarousel" data-slide-to="2"></li>
+                <li data-target="#plantingCarousel" data-slide-to="3"></li>
+                <li data-target="#plantingCarousel" data-slide-to="4"></li>
+                <li data-target="#plantingCarousel" data-slide-to="5"></li>
+            </ul>
+
+            <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="path/to/image1.jpg" class="d-block w-100" alt="First slide">
+                <img src="img/planting/p1.jpeg" alt="Planting 1">
                 </div>
                 <div class="carousel-item">
-                <img src="path/to/image2.jpg" class="d-block w-100" alt="Second slide">
+                <img src="img/planting/p12.jpeg" alt="Planting 12">
                 </div>
-<!-- Additional Plantings carousel items -->  
+                <div class="carousel-item">
+                <img src="img/planting/p16.jpeg" alt="Planting 16">
+                </div>
+                <div class="carousel-item">
+                <img src="img/planting/p11.jpeg" alt="Planting 11">
+                </div>
+                <div class="carousel-item">
+                <img src="img/planting/p10.jpeg" alt="Planting 10">
+                </div>
+                <div class="carousel-item">
+                <img src="img/planting/p8.jpeg" alt="Planting 8">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#plantingsCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#plantingsCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#plantingCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#plantingCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
             </div>
         </section>
 
@@ -205,26 +293,49 @@
                 <p>Protect your property from water damage with our tailored drainage solutions. We assess your site's specific needs to implement effective systems that prevent flooding, erosion, and other water-related issues.</p>
             </div>
 <!-- Drainage Carousel -->
-            <div id="drainageCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="drainageCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#drainageCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#drainageCarousel" data-slide-to="1"></li>
+            </ul>
+
+            <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="path/to/image1.jpg" class="d-block w-100" alt="First slide">
+                <img src="img/drain/d1.jpg" alt="Drain 1">
                 </div>
                 <div class="carousel-item">
-                <img src="path/to/image2.jpg" class="d-block w-100" alt="Second slide">
+                <img src="img/drain/d2.jpg" alt="Drain 2">
                 </div>
-<!-- Additional Drainage carousel items -->
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#drainageCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#drainageCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#drainageCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#drainageCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
             </div>
         </section>
+
+<!-- Contact content added here -->
+        <section id="contact" class="container-fluid text-center bg-gray">
+            <h2>Contact Us</h2>
+            <p>Reach out to us for more information or to schedule an appointment:</p>
+            <form action="path/to/server" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p>Or call us now at:</p>
+            <a href="tel:+1234567890" class="call-now-btn">Call Now</a>
+        </section>
+
 
     </main>
 
